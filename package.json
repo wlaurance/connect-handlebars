@@ -6,19 +6,19 @@
   },
   "contributors": [
     {
-      "name" : "Dave Mosher",
+      "name": "Dave Mosher",
       "email": "davidmosher@gmail.com",
       "url": "http://github.com/davemo"
     },
     {
-      "name" : "Will Laurance",
-      "email" : "w.laurance@gmail.com",
-      "url" : "https://github.com/wlaurance"
+      "name": "Will Laurance",
+      "email": "w.laurance@gmail.com",
+      "url": "https://github.com/wlaurance"
     }
   ],
   "name": "express-ember-handlebars",
   "description": "express middleware for ember handlebars based on https://github.com/interlock/connect-handlebars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/wlaurance/express-ember-handlebars"

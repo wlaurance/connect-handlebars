@@ -9,43 +9,37 @@
       "name" : "Dave Mosher",
       "email": "davidmosher@gmail.com",
       "url": "http://github.com/davemo"
-    } 
+    },
+    {
+      "name" : "Will Laurance",
+      "email" : "w.laurance@gmail.com"
+      "url" : "https://github.com/wlaurance"
+    }
   ],
-  "name": "connect-handlebars",
-  "description": "Connect middleware for Handlebars",
-  "version": "0.0.5",
+  "name": "express-ember-handlebars",
+  "description": "express middleware for ember handlebars based on https://github.com/interlock/connect-handlebars",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://github.com/interlock/connect-handlebars.git"
+    "url": "git://github.com/wlaurance/express-ember-handlebars"
   },
   "keywords": [
     "Handlebars",
-    "Connect",
     "Express",
     "middleware"
   ],
-  "homepage": "http://github.com/interlock/connect-handlebars",
+  "homepage": "http://github.com/wlaurance/express-ember-handlebars",
   "bugs": {
-    "url": "https://github.com/interlock/connect-handlebars/issues"
+    "url": "https://github.com/wlaurance/express-ember-handlebars/issues"
   },
-  "main": "lib/connect-handlebars.js",
+  "main": "lib/express-handlebars.js",
   "engines": {
     "node": "*"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/interlock/connect-handlebars/blob/master/LICENSE"
+      "url": "https://github.com/wlaurance/express-ember-handlebars/blob/master/LICENSE"
     }
-  ],
-  "dependencies": {
-    "handlebars": ">= 1.0.5beta"
-  },
-  "devDependencies": {
-    "connect": "*",
-    "jasmine-node": "*"
-  },
-  "scripts": {
-    "test": "jasmine-node ./specs"
-  }
+  ]
 }

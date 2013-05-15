@@ -18,7 +18,7 @@
   ],
   "name": "express-ember-handlebars",
   "description": "express middleware for ember handlebars based on https://github.com/interlock/connect-handlebars",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "git://github.com/wlaurance/express-ember-handlebars"

@@ -11,6 +11,12 @@ To make this work in an express app, do the following:
 
 ```js
 
+var ember_handlebars = require('express-ember-handlebars');
+...
+app.get('/templates.js', ember_handlebars(__dirname +
+'/public/templates', {
+  cache: false
+}));
 
 ```
 
